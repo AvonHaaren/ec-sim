@@ -1,0 +1,13 @@
+data/
+build/
+bin/
+**/xcuserdata/
+*.nb
+Debug/
+test/
+build/
+Notebooks/
+*.ipch
+*.suo
+
+.vs/
