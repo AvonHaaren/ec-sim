@@ -258,7 +258,7 @@ void DSMC::readConfig(const fs::path& config)
             returnValue = false;
         } catch (const std::out_of_range& oor) {
             log.Error(std::string("Timepoint t = ") + std::to_string(tEnd) + "; " + keyName + ": " + oor.what());
-            returnValue false;
+            returnValue = false;
         }
         
         
