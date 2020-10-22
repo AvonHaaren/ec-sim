@@ -120,14 +120,14 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)include\;C:\Users\andre\Google Drive\Dev\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)include\</AdditionalIncludeDirectories>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)include\;C:\Users\andre\Google Drive\Dev\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)include\</AdditionalIncludeDirectories>
       <ConformanceMode>true</ConformanceMode>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <IntrinsicFunctions>true</IntrinsicFunctions>
