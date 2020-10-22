@@ -6,7 +6,7 @@ JSON files are structures with key-value pairs. Keys can only be strings, values
 Comments are supported by some JSON specifications but are not part of the original JSON format.  
 **Comments are *not* supported by the C++ JSON parser (nlohmann-json) this project is using**.
 
-```json
+```jsonc
 {
     "key-string": "value",
     "key-number": 42,
@@ -25,7 +25,7 @@ Comments are supported by some JSON specifications but are not part of the origi
 ## Structure of the configuration file
 The config file for a simulation case is structured into four main parts. All values are in SI units unless otherwise stated.
 
-```json
+```jsonc
 {
     // base config goes here,
     "starting_conditions": {
@@ -133,7 +133,7 @@ A list entry of the `potentials` parameter then has the following entries:
 
 # Full example of a configuration file with comments
 
-```json
+```jsonc
 {
     "runtime": 10, // run for 10s
     "mass": 42, // each atoms weighs 42kg
