@@ -256,6 +256,9 @@ void DSMC::readConfig(const fs::path& config)
         } catch (const std::invalid_argument& inv) {
             log.Error(std::string("Timepoint t = ") + std::to_string(tEnd) + "; " + keyName + ": " + inv.what());
             returnValue = false;
+        } catch (const std::out_of_range& oor) {
+            log.Error(std::string("Timepoint t = ") + std::to_string(tEnd) + "; " + keyName + ": " + oor.what());
+            return false;
         }
         
         
