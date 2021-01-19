@@ -6,7 +6,7 @@ TARGET := bin/sim
 SRCEXT := cpp
 SOURCES := $(shell find $(SRCDIR) -type f -name *.$(SRCEXT))
 OBJECTS := $(patsubst $(SRCDIR)/%,$(BUILDDIR)/%,$(SOURCES:.$(SRCEXT)=.o))
-CXXFLAGS := -std=c++11 -g -Wall
+CXXFLAGS := -std=c++2a -g -Wall
 LIB := -pthread
 INC := -I include
 
